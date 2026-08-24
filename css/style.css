@@ -129,8 +129,6 @@ body.home nav a:hover { background: #d5ec8d; color: #5c2439; }
 body.home nav .brand { color: #76344e; }
 body.home nav a.current {
   color: #5c2439;
-  border-bottom: 2px solid #76344e;
-  padding-bottom: 2px;
 }
 main.hero {
   max-width: 1100px;
