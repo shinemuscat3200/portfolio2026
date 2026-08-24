@@ -41,13 +41,16 @@ nav .brand {
   margin-right: auto;
   letter-spacing: -0.01em;
 }
-nav .brand:hover { color: var(--accent); }
+nav .brand:hover { background: #d5ec8d; color: #5c2439; }
 nav a:not(.brand) {
   color: var(--text);
   text-decoration: none;
   font-size: 1.05rem;
+  padding: 0.25em 0.6em;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
-nav a:not(.brand):hover { color: var(--accent); }
+nav a:not(.brand):hover { background: #d5ec8d; color: #5c2439; }
 main {
   max-width: 1100px;
   margin: 0 auto;
@@ -78,7 +81,8 @@ p.lead {
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .page-list li:hover { border-color: #e0b7c6; box-shadow: 0 3px 12px rgba(118, 52, 78, 0.08); }
-.page-list a { display: block; padding: 1.25rem 1.5rem; text-decoration: none; color: var(--text); }
+.page-list a { display: block; padding: 1.25rem 1.5rem; text-decoration: none; color: var(--text); border-radius: 12px; transition: background-color 0.15s ease, color 0.15s ease; }
+.page-list a:hover { background: #d5ec8d; }
 .page-list .page-title { font-family: "Arvo", Georgia, serif; font-weight: 700; font-size: 1.35rem; }
 .page-list .page-desc { color: var(--muted); font-size: 1rem; margin-top: 0.25rem; }
 .back-link {
@@ -88,7 +92,8 @@ p.lead {
   text-decoration: none;
   font-size: 1.1rem;
 }
-.back-link:hover { text-decoration: underline; }
+.back-link:hover { background: #d5ec8d; text-decoration: underline; }
+main a:hover { background: #d5ec8d; }
 footer.site-footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem;
@@ -120,7 +125,7 @@ body.home header.site-header {
   top: 0;
 }
 body.home nav a { color: #76344e; }
-body.home nav a:hover { color: #5c2439; }
+body.home nav a:hover { background: #d5ec8d; color: #5c2439; }
 body.home nav .brand { color: #76344e; }
 body.home nav a.current {
   color: #5c2439;
