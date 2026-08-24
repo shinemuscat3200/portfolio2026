@@ -34,7 +34,7 @@ nav {
 }
 nav .brand {
   font-family: "Arvo", Georgia, serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.35rem;
   text-decoration: none;
   color: var(--text);
@@ -58,11 +58,12 @@ main {
 }
 h1, h2, h3 {
   font-family: "Arvo", Georgia, serif;
+  font-weight: 400;
   color: var(--text);
   line-height: 1.12;
   letter-spacing: -0.01em;
 }
-h1 { font-size: 70px; margin: 0 0 1rem; font-weight: 700; }
+h1 { font-size: 70px; margin: 0 0 1rem; font-weight: 400; }
 h2 { font-size: 52px; margin: 0 0 0.75rem; }
 h3 { font-size: 40px; margin: 0 0 0.5rem; }
 p { max-width: 34ch; }
@@ -83,7 +84,7 @@ p.lead {
 .page-list li:hover { border-color: #e0b7c6; box-shadow: 0 3px 12px rgba(118, 52, 78, 0.08); }
 .page-list a { display: block; padding: 1.25rem 1.5rem; text-decoration: none; color: var(--text); border-radius: 12px; transition: background-color 0.15s ease, color 0.15s ease; }
 .page-list a:hover { background: #d5ec8d; }
-.page-list .page-title { font-family: "Arvo", Georgia, serif; font-weight: 700; font-size: 1.35rem; }
+.page-list .page-title { font-family: "Arvo", Georgia, serif; font-weight: 400; font-size: 1.35rem; }
 .page-list .page-desc { color: var(--muted); font-size: 1rem; margin-top: 0.25rem; }
 .back-link {
   display: inline-block;
